@@ -170,7 +170,7 @@ La descripcion de los ficheros del proyecto es:
 COnfguraciones basicas del framework como lenguaje y directorio raiz
 
 /package.json
-COnfiguracion de las dependencias y librerias de las que hace uso js.
+Configuracion de las dependencias y librerias de las que hace uso js.
 Al escribir npm install en la terminal recorre el archivo y genera el directorio dentro de node_modules
 
 
