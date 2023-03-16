@@ -135,5 +135,18 @@ De esta manera ya esta lanada la aplicacion backend en un puerto local que se pe
 En este momento la aplicacion nop tiene controladores definidos.
 
 ## 6. S02-CL03: Instalando XAMPP para base de datos local MySQL
+Se recomuenda la instalacion de XAMPP para el manejo de la base de datos.
+Una vez instalada se debe arrancar los servicios, MySQL para arrancar la base de datos y apache para tener el manejador grafico de la base de datos.
+
+Php my admin permite gestionar graficamente la base de datos.
+
+### Creacion de base de datos proyecto con usuario de acceso
+Se crea la base de datos para el proyecto en XAMPP con nombre sendmeapp_db y se indica utf8-unicode. Una vez creada la BD solo resta gestionar un usuario para acceder a la BD.
+
+### Creacion de usuario para acceso a BD
+Dentro de Phpmyademin, estando en la pestaña privilegios se accede a crear un usuario en la parte inferior, se le da como nombre nest, el host es en local y la contraseña sera app. Se seleccionan todos los permisos y se ha creado el usuario .
+
+User account 'nest'@'localhost' - Database sendmeapp\_db
+
 ## 7. S02-CL04: Entorno de desarrollo: Visual Studio Code
 
